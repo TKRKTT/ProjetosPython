@@ -1,7 +1,7 @@
-# exercicio04.py - Dicinário em Python
+# exercicio04.py - Dicionário em Python # 'Dicinário' corrigido
 
 # 1. Criando um dicionário de uma pessoa
-# Cada intem é par chave: valor
+# Cada item é par chave: valor # 'intem' corrigido
 pessoa = {
     "nome": "Osvado",
     "idade": 30,
@@ -9,13 +9,13 @@ pessoa = {
     "profissao": "Programador"
 }
 
-print("--- Informações da passoa ---")
+print("--- Informações da pessoa ---") # 'passoa' corrigido
 print(f"Dicionário completo: {pessoa}")
 
 # 2. Acessando valores usando as chaves
-nome_pssoa = pessoa["nome"]
+nome_pessoa = pessoa["nome"] # 'nome_pssoa' corrigido para 'nome_pessoa'
 idade_pessoa = pessoa["idade"]
-print(f"\nNome: {nome_pssoa}")
+print(f"\nNome: {nome_pessoa}")
 print(f"Idade: {idade_pessoa} anos")
 
 # 3. Alterando valores
@@ -34,7 +34,7 @@ print("\nProfissão removida do dicionário:", pessoa)
 if "cidade" in pessoa:
     print("\nCidade da pessoa:", pessoa['cidade'])
 else:
-    print("\nCidade não encoontrada no dicinário.")
+    print("\nCidade não encontrada no dicionário.") # 'encoontrada' e 'dicinário' corrigidos
 
 if "telefone" in pessoa:
     print("\n Telefone da pessoa:", pessoa['telefone'])

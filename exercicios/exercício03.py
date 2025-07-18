@@ -1,4 +1,4 @@
-# exercio03.py - Lista de frutas em python
+# exercicio03.py - Lista de frutas em python # 'exercio' corrigido
 
 frutas = ["maçã", "banana", "laranja", "melão", "abacaxi"]
 
@@ -29,9 +29,9 @@ if "morango" in frutas:
 else:
     print("\n --- Morango não está na lista de frutas ---")
 
-print("\n --- Percorendo as frutas na lista ---")
+print("\n --- Percorrendo as frutas na lista ---") # 'Percorendo' corrigido
 for fruta in frutas:
-    print(f"- {frutas}")
-    
+    print(f"- {frutas}") # Lembre-se, aqui você provavelmente queria printar '- {fruta}' e não '{frutas}'
+
 print("----- fim do exercício03.py -----")
 # Exercício 03 - Python Básico com Listas

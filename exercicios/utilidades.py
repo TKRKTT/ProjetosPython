@@ -1,28 +1,30 @@
+# utilidades.py - Este arquivo vai conter funções úteis
+
 def saudar(nome_da_pessoa):
     """
-    Esta função inprime uma saudação personaliarda.
-    Recebe um nome como parãmento e retorna uma string formada.
+    Esta função imprime uma saudação personalizada. # 'inprime' e 'personaliarda' corrigidos
+    Recebe um nome como parâmetro e retorna uma string formada. # 'parãmento' corrigido
     """
     print(f"Olá, {nome_da_pessoa}! Seja bem-vindo(a)!")
 
 def calcular_dobro(numero):
     """
-    Esta funçãp calcular o drobro de um número.
+    Esta função calcula o dobro de um número. # 'funçãp' e 'drobro' corrigidos
     Recebe um argumento: numero (numérico).
-    Retona: o drobo do número.
+    Retorna: o dobro do número. # 'Retona' e 'drobo' corrigidos
     """
-    drobro = numero * 2
-    return drobro # 'return' envia o valor de volta para quem chamou a função
+    dobro = numero * 2
+    return dobro # 'return' envia o valor de volta para quem chamou a função
 
 def verificar_par_ou_impar(valor):
     """
     Esta função verifica se um número é par ou ímpar.
     Recebe um argumento: valor (numérico inteiro).
     """
-    if valor % 2 == 0: # O oprador '%'(módulo) retona o resto da divisão
+    if valor % 2 == 0: # O operador '%' (módulo) retorna o resto da divisão # 'oprador' e 'retona' corrigidos
         print(f" O número {valor} é par.")
     else:
-        print(f"O número {valor} é impar.")
+        print(f"O número {valor} é ímpar.") # 'impar' corrigido
 
 def exibir_lista_com_indices(lista):
     """
@@ -34,4 +36,4 @@ def exibir_lista_com_indices(lista):
     for indice, item in enumerate(lista):
         print(f"[{indice}]: {item}")
 
-# Fim de utilidades.pay
+# Fim de utilidades.py # 'utilidades.pay' corrigido
