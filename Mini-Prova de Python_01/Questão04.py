@@ -1,7 +1,7 @@
 # Questão04.py - Função para Calcular Média
 
-# 1. Crie uma função chamada calcular_media
-def calcular_media(lista_de_numeros): # Renomeei o parâmetro para 'lista_de_numeros' para clareza
+# Define uma função chamada calcular_media
+def calcular_media(lista_de_numeros): # O parâmetro é 'lista_de_numeros'
     """
     Esta função calcula a média de uma lista de números.
     Recebe: uma lista de números (list).
@@ -15,12 +15,12 @@ def calcular_media(lista_de_numeros): # Renomeei o parâmetro para 'lista_de_num
     quantidade = len(lista_de_numeros) # Conta quantos números há na lista
     
     media = soma / quantidade # Calcula a média
-    return media # Corrigido 'retun' para 'return' e retorna o valor calculado
+    return media # Retorna o valor da média calculada
 
-# Lista de valores para testar a função
+# Define a lista de valores para testar a função
 valores = [10, 20, 30, 40, 50]
 
-# Chamando a função com a lista 'valores' e imprimindo o resultado
-# Usando f-string para formatar a saída corretamente
+# Chama a função com a lista 'valores' e imprime o resultado
+# Usa f-string para formatar a saída corretamente
 media_calculada = calcular_media(valores) # Armazena o resultado da função em uma variável
 print(f"A média dos números {valores} é {media_calculada}.") # Exibe a lista original e a média
