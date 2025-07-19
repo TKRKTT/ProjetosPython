@@ -1,14 +1,18 @@
-# exercicio02.py
+# Questão02.py - Manipulação de Lista de Produtos
 
-nome = input("Digite seu nome: ")
+produtos = ["Monitor", "Teclado", "Mouse", "Webcam", "Fone de Ouvido"]
 
-idade = float(input("Digite sua idade: "))
-
-if idade >= 18:
-    print(f" --- Olá {nome}, você tem {idade} anos e é maior de idade ---") # 'vocẽ' corrigido
+if "Mouse" in produtos:
+    print(" --- Mouse encontrado! ---")
 else:
-    print(f" --- Olá {nome}, você tem {idade} anos e é menor de idade ---") # 'vocẽ' corrigido
+    produtos.append("Mouse")
+    print("Mouse não estava na lista e agora foi adicionado.")
+    print("O Mouse não está na lista de produtos.") # Esta linha pode ser redundante se o mouse for adicionado.
+    print("Lista de produtos atualizada:", produtos)
 
-# fim do código
+print("\n Lista de produtos:", produtos)
 
-# Exercício 02 - Python Básico com Condicional
+del produtos[1] # Removendo o Teclado
+print("\n Lista de produtos após remoção do Teclado:", produtos)
+
+print(" --- Fim do exercício ---")

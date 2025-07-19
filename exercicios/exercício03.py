@@ -22,7 +22,7 @@ frutas.insert(2, "Kiwi")
 print("\nLista de frutas após inserção do Kiwi:", frutas)
 
 del frutas[3]
-print("Lista de frutas após remoção do elemnto do indice 3:", frutas)
+print("Lista de frutas após remoção do elemento do índice 3:", frutas) # 'elemnto' corrigido
 
 if "morango" in frutas:
     print("\n --- Morango está na lista de frutas ---")
@@ -31,7 +31,7 @@ else:
 
 print("\n --- Percorrendo as frutas na lista ---") # 'Percorendo' corrigido
 for fruta in frutas:
-    print(f"- {frutas}") # Lembre-se, aqui você provavelmente queria printar '- {fruta}' e não '{frutas}'
-
+    print(f"- {fruta}") # Corrigido para imprimir a 'fruta' individual, não a lista 'frutas'
+    
 print("----- fim do exercício03.py -----")
 # Exercício 03 - Python Básico com Listas

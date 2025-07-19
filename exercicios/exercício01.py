@@ -1,7 +1,9 @@
-# Exercício 01 - Python Básico
+# Questão01.py - Pergunta sobre Esporte Favorito
 
-nome = input("Digite seu nome:")
+nome = input("Qual é o seu nome?")
 
-idade = float(input("Digite sua idade:"))
+esporte_favorito = input("Qual é o seu esporte favorito?") # 'esrporte' corrigido para 'esporte'
 
-print(f" --- Olá {nome}, você tem {idade} anos ---") # 'vocẽ' corrigido
+quantidade = int(input("Quantas vezes por semana você pratica?")) # 'vocẽ' corrigido para 'você'
+
+print(f" --- Olá {nome}, seu esporte favorito é {esporte_favorito} e você pratica {quantidade} vezes por semana ---") # 'vocẽ' corrigido para 'você'

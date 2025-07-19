@@ -1,3 +1,5 @@
+# Questão02.py - Manipulação de Lista de Produtos
+
 produtos = ["Monitor", "Teclado", "Mouse", "Webcam", "Fone de Ouvido"]
 
 if "Mouse" in produtos:
@@ -5,7 +7,7 @@ if "Mouse" in produtos:
 else:
     produtos.append("Mouse")
     print("Mouse não estava na lista e agora foi adicionado.")
-    print("O Mouse não está na lista de produtos.")
+    print("O Mouse não está na lista de produtos.") # Esta linha pode ser redundante se o mouse for adicionado.
     print("Lista de produtos atualizada:", produtos)
 
 print("\n Lista de produtos:", produtos)
